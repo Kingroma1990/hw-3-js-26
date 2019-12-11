@@ -1,9 +1,12 @@
 "use strict";
 
-const countProps = function(obj) {
-  const key = Object.keys(obj);
-  return key.length;
-};
+// const countProps = function(obj) {
+//   const key = Object.keys(obj);
+//   return key.length;
+// };
+
+const countProps = obj => 
+Object.keys(obj).length;
 
 console.log(countProps({})); // 0
 

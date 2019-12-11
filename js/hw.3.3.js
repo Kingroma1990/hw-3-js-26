@@ -1,7 +1,7 @@
 "use strict";
 const findBestEmployee = function(employees) {
   let max = 0;
-  let name;
+  let name ;
   const key = Object.keys(employees);
 
   for (const keys of key) {
@@ -14,10 +14,7 @@ const findBestEmployee = function(employees) {
       // console.log(max);
     }
   }
-  return {
-    name,
-    max,
-  };
+  return name;
 };
 
 /*
